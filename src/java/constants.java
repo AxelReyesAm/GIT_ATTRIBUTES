@@ -1,6 +1,7 @@
 public class Constants {
-    public static final String USER ="QA";
-    public static final String PASSWORD ="888888";
-    public static final String JDBCURL ="172.88.10.250";
-    public static final String DB ="IKE_QA";
+    public static final String USER ="DEV";
+    public static final String PASSWORD ="12345";
+    public static final String JDBCURL ="172.20.50.11";
+    public static final String DB ="IKE_DEV";
+    public static final String KEY ="QAAAAAAAA";
 }

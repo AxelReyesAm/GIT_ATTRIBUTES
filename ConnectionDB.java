@@ -41,4 +41,12 @@ public class ConnectionDB {
             log.info("Error de conexion");
         }
     }
+
+        public void statusConnection(){
+        try {
+            con.close();
+        } catch (SQLException e) {
+            log.info("Error de conexion");
+        }
+    }
 }

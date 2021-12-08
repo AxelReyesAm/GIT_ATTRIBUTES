@@ -42,7 +42,15 @@ public class ConnectionDB {
         }
     }
 
-        public void statusConnection(){
+    public void statusConnection(){
+        try {
+            con.close();
+        } catch (SQLException e) {
+            log.info("Error de conexion");
+        }
+    }
+
+    public void statusConnection(){
         try {
             con.close();
         } catch (SQLException e) {
